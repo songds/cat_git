@@ -1,4 +1,4 @@
 ### the frame config
 
-spring.application.name: WechatStudy_web
-server.port: ${port:80}
+spring.application.name: cat_manager_web
+server.port: ${port:8081}
