@@ -1,0 +1,28 @@
+buildscript {
+    repositories {
+        mavenCentral()//依赖Maven仓库
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+//生成的jar包包名和版本
+jar {
+    baseName = 'WeChatStudy-web'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+//设置jdk的版本
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+//添加编译时的依赖
+dependencies {
+    compile fileTree(dir:'libs',include:['*.jar'])
+	
+}
