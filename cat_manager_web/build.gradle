@@ -29,9 +29,9 @@ targetCompatibility = 1.8
 //添加编译时的依赖
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    //compile("mysql:mysql-connector-java")
-   // compile("org.springframework.boot:spring-boot-starter-data-jpa")
-   // compile("org.springframework.boot:spring-boot-starter-jdbc")
+    compile("mysql:mysql-connector-java")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("org.springframework.boot:spring-boot-starter-jdbc")
 	compile("org.projectlombok:lombok")
 	compile("commons-net:commons-net:3.1")
 	compile("commons-logging:commons-logging:1.2")
